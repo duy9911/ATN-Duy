@@ -10,7 +10,11 @@ if (isset($_POST['user'])) {
     } else {
         $token = passwordToToken($pass);
         $result = queryMysql("SELECT * FROM user WHERE username = '$user' AND password = '$token' AND status='1'");
-        if {
+         if ($result->num_rows == 0)    
+           {
+            $error = "Username/Password invalid";	
+           }
+             else {
             session_start();
             $_SESSION['user'] = $user;
             $_SESSION['pass'] = $pass;
