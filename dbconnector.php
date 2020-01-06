@@ -1,10 +1,10 @@
 <?php 
 {
 	 $dbhost = 'us-cdbr-iron-east-05.cleardb.net';
-	 $dbname = '';
+	 $dbname = 'heroku_ee0c3d37b923cb1';
 	 $dbuser = 'b68edd3e55463b';
 	 $dbpassword = '44610324';
-     $dbport='3306';
+          $dbport='3306';
 
          $connection = new mysqli($dbhost, $dbuser, $dbpassword, $dbname, $dbport);
 if ($connection->connect_error) {
