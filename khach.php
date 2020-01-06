@@ -11,7 +11,7 @@
                 <div class="banner">
                     
                    <h1 align="center"><a href="khach.php" >HTX Trà sạch Thủy Thuật</a></h1>
-                   <h2 align="right" > <a href="login.php">Login </a> </h2>
+                   <h2 align="right" > <a href="login.php">Go Admin page  </a> </h2>
         </li>
 		</div>
                 <div class="nav">
