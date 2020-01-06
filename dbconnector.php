@@ -1,10 +1,10 @@
 <?php 
 {
-	 $dbhost = '';
+	 $dbhost = 'us-cdbr-iron-east-05.cleardb.net';
 	 $dbname = '';
-	 $dbuser = '';
-	 $dbpassword = '';
-     $dbport='';
+	 $dbuser = 'b68edd3e55463b';
+	 $dbpassword = '44610324';
+     $dbport='3306';
 
          $connection = new mysqli($dbhost, $dbuser, $dbpassword, $dbname, $dbport);
 if ($connection->connect_error) {
