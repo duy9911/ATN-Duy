@@ -1,6 +1,6 @@
 <?php
 require_once './header.php';
-require_once './restrictedsession.php';
+//require_once './restrictedsession.php';
 $query = "SELECT ProID, ProName from product";
 // exploit category
 if(isset($_POST['keyword']))
