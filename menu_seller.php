@@ -13,8 +13,8 @@
                 <li><a href="addProduct.php">Add Product</a></li>
                 <li><a href="Pmanagement.php">View/Search/Update/Delete Product</a></li>
             </ul>
-        </li>
-        <li><a href="logout.php">Logout <?php echo $userstr; ?></a></li>
+<!--         </li>
+        <li><a href="logout.php">Logout <?php echo $userstr; ?></a></li> -->
     </ul>
 </nav>
 
